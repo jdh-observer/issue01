@@ -1,6 +1,6 @@
 # The Nameless Crowd: Using Quantitative Data and Digital Tools to Study the Ancient Vocabulary of the Crowd in Tacitus
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jdh-observer/jdh001-JJszM3GwAYDs/main?filepath=The-Nameless-Crowd_anon_V3.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jdh-observer/jdh001-JJszM3GwAYDs/main?filepath=namelesscrowd/The-Nameless-Crowd_anon_V3.ipynb)
 
 ## Abstract
 
