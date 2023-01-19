@@ -12,7 +12,7 @@ jobs:
         id: hello
         uses: c2dh/journal-of-digital-history-ipynb-skim-action@master
         with:
-          notebook: 'namelesscrowd/The-Nameless-Crowds_V4.ipynb'
+          notebook: 'example/example_article.ipynb'
       # Use the output from the `hello` step
       - name: Use the output
         run: echo "number of cells ${{ steps.hello.outputs.size }}"
@@ -20,4 +20,3 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: '*.ipynb'
-
