@@ -1,0 +1,15 @@
+on: [workflow_dispatch]
+name: GitHub Actions Ipynb for publishing
+jobs:
+  Ipynb_for_publishing:
+    runs-on: ubuntu-latest
+    name: Ipynb for publishing
+    steps:
+      - name: Skim example file
+        id: hello
+        uses: c2dh/journal-of-digital-history-ipynb-skim-action@master
+        with:
+          notebook: 'namelesscrowd/The-Nameless-Crowds_V4.ipynb'
+      # Use the output from the `hello` step
+      - name: Use the output
+        run: echo "number of cells ${{ steps.hello.outputs.size }}"
